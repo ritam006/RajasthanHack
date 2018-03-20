@@ -100,7 +100,9 @@ public class LoginActivity extends AppCompatActivity {
         {
             e.printStackTrace();
         }
+
         url_login = "http://172.17.0.1:5000/login";
+
         JsonObjectRequest postRequest = new JsonObjectRequest(Request.Method.PUT,url_login, jsonBody,
                 new Response.Listener<JSONObject>() {
                     @Override

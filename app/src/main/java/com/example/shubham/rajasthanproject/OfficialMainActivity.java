@@ -14,6 +14,7 @@ import java.util.ArrayList;
 
 public class OfficialMainActivity extends AppCompatActivity {
 
+
     FloatingActionButton fab;
 
     @Override
@@ -21,7 +22,9 @@ public class OfficialMainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_official_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+
         fab=findViewById(R.id.fab);
+
         setSupportActionBar(toolbar);
         ListView listView = findViewById(R.id.list_of_districts);
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -32,6 +35,7 @@ public class OfficialMainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
         Intent intent = getIntent();
         Bundle bundle = intent.getExtras();
         ArrayList<String> string_district = bundle.getStringArrayList("districts");

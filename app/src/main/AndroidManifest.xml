@@ -41,8 +41,12 @@
         <activity
             android:name=".OfficialMainActivity"
             android:label="@string/title_activity_official_main"
+
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".SurveyForm"></activity>
+        <activity android:name=".SurveyForm">
+
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
     </application>
 
 </manifest>

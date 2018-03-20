@@ -90,7 +90,9 @@ public class AdminSignup extends AppCompatActivity {
         progressDialog.setMessage("Creating Account...");
         progressDialog.show();*/
 
+
         String url_signup = "http://172.17.0.1:5000/signup_as_official";
+
         String name = _nameText.getText().toString();
         /*String address = _addressText.getText().toString();
         String district = _districtText.getText().toString();*/
