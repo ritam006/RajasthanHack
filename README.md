@@ -28,3 +28,7 @@ The government is also sent an alert when a drought is being predicted in the ne
 - Machine Learning
 - Backend- Flask Framework
 - Android App
+
+
+![screenshot from 2018-02-14 18-09-43](https://user-images.githubusercontent.com/25881743/37682025-5a14ee74-2cae-11e8-9fef-5f5c27b3652b.png)
+
