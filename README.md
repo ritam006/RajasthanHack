@@ -17,7 +17,14 @@ The government is also sent an alert when a drought is being predicted in the ne
 
 
 ## How it works
+
 1. The app uses the data collected during surveys for training a neural network that gives us the clean and regular water need of households. The househlolds are represented using the feature vector (occupation_type, infants, kids, adults, senior_citizens), which are used for prediction of the water need using the trained ANN.
 2. The government can use that data when they need to send in water supplies for the households. The fammilies get a notification on the app, or as an SMS, whichever possible, when a water tanker has been sent for them.
 3. The app uses an ANN trained on 105 years worth of Rajasthan's weather data, that predicts the possibility of a drought in the next 3 months and sends an alert to the government officials so that appropriate actions can be taken.
 4. The goverment will install IoT devices in the water bodies of the area to calculate the purity levels and that data would be displayed to the users on the app in real-time.
+
+## Technology Stack
+
+- Machine Learning
+- Backend- Flask Framework
+- Android App
