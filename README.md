@@ -26,6 +26,6 @@ The government is also sent an alert when a drought is being predicted in the ne
 
 ## Technology Stack
 
-- Machine Learning
-- Backend- Flask Framework
+- Machine Learning - Artificial Neural Network using Tensorflow, Multilayer Perceptron
+- Backend - Flask Framework
 - Android App
