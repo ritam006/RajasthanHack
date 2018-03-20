@@ -1,9 +1,6 @@
 # RajasthanHack
 
-![water-wave-icon-abstract-logo-vector-5241866](https://user-images.githubusercontent.com/25881743/37683441-a0e4d392-2cb2-11e8-94f4-6e257b2cee99.jpeg)
-
-
-
+![water-wave-icon-abstract-logo-vector-5241866 1](https://user-images.githubusercontent.com/25881743/37683526-e6e6bf0e-2cb2-11e8-9b92-6495022842d7.jpeg)
 
 ## Overview
 We are proposing an end-to-end water management solution for the Rajasthan government that will ensure proper usage of water.
